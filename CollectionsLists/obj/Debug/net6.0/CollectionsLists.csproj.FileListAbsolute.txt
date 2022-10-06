@@ -1,0 +1,15 @@
+C:\Users\baske\source\repos\AluraCSharp\CollectionsLists\bin\Debug\net6.0\CollectionsLists.exe
+C:\Users\baske\source\repos\AluraCSharp\CollectionsLists\bin\Debug\net6.0\CollectionsLists.deps.json
+C:\Users\baske\source\repos\AluraCSharp\CollectionsLists\bin\Debug\net6.0\CollectionsLists.runtimeconfig.json
+C:\Users\baske\source\repos\AluraCSharp\CollectionsLists\bin\Debug\net6.0\CollectionsLists.dll
+C:\Users\baske\source\repos\AluraCSharp\CollectionsLists\bin\Debug\net6.0\CollectionsLists.pdb
+C:\Users\baske\source\repos\AluraCSharp\CollectionsLists\obj\Debug\net6.0\CollectionsLists.csproj.AssemblyReference.cache
+C:\Users\baske\source\repos\AluraCSharp\CollectionsLists\obj\Debug\net6.0\CollectionsLists.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\baske\source\repos\AluraCSharp\CollectionsLists\obj\Debug\net6.0\CollectionsLists.AssemblyInfoInputs.cache
+C:\Users\baske\source\repos\AluraCSharp\CollectionsLists\obj\Debug\net6.0\CollectionsLists.AssemblyInfo.cs
+C:\Users\baske\source\repos\AluraCSharp\CollectionsLists\obj\Debug\net6.0\CollectionsLists.csproj.CoreCompileInputs.cache
+C:\Users\baske\source\repos\AluraCSharp\CollectionsLists\obj\Debug\net6.0\CollectionsLists.dll
+C:\Users\baske\source\repos\AluraCSharp\CollectionsLists\obj\Debug\net6.0\refint\CollectionsLists.dll
+C:\Users\baske\source\repos\AluraCSharp\CollectionsLists\obj\Debug\net6.0\CollectionsLists.pdb
+C:\Users\baske\source\repos\AluraCSharp\CollectionsLists\obj\Debug\net6.0\CollectionsLists.genruntimeconfig.cache
+C:\Users\baske\source\repos\AluraCSharp\CollectionsLists\obj\Debug\net6.0\ref\CollectionsLists.dll
