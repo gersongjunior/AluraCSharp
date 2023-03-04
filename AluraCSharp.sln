@@ -3,13 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CriandoVariaveis", "CriandoVariaveis\CriandoVariaveis.csproj", "{BE16EBB4-91D2-47F7-B925-04608683C606}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CriandoVariaveis", "CriandoVariaveis\CriandoVariaveis.csproj", "{BE16EBB4-91D2-47F7-B925-04608683C606}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Condicionais", "Condicionais\Condicionais.csproj", "{DEA87DB4-E678-4C53-8AC2-4811D592E55C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Condicionais", "Condicionais\Condicionais.csproj", "{DEA87DB4-E678-4C53-8AC2-4811D592E55C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColectionsArrays", "ColectionsArrays\ColectionsArrays.csproj", "{184F22DD-0205-4873-97CA-D8C11D5A134A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ColectionsArrays", "ColectionsArrays\ColectionsArrays.csproj", "{184F22DD-0205-4873-97CA-D8C11D5A134A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionsLists", "CollectionsLists\CollectionsLists.csproj", "{FF2FEC66-CB58-4449-A195-296DF677738E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CollectionsLists", "CollectionsLists\CollectionsLists.csproj", "{FF2FEC66-CB58-4449-A195-296DF677738E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CollectionsListObj", "CollectionsListObj\CollectionsListObj.csproj", "{6E10D681-D36E-45E3-9DA5-C769BEFFAE4A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CollectionsSets", "CollectionsSets\CollectionsSets.csproj", "{8DD000FA-583B-47AF-AAA7-4E002B80ECA5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CollectionsSetModel", "CollectionsSetModel\CollectionsSetModel.csproj", "{4EF3A82B-59E2-4D1F-9A85-B44AA27BF711}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedList", "LinkedList\LinkedList.csproj", "{55949F9E-1E63-47E5-88F8-999F9D8ED392}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stack", "Stack\Stack.csproj", "{C1002E73-57A6-44BB-92DE-A8E42380516A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +43,26 @@ Global
 		{FF2FEC66-CB58-4449-A195-296DF677738E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF2FEC66-CB58-4449-A195-296DF677738E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF2FEC66-CB58-4449-A195-296DF677738E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E10D681-D36E-45E3-9DA5-C769BEFFAE4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E10D681-D36E-45E3-9DA5-C769BEFFAE4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E10D681-D36E-45E3-9DA5-C769BEFFAE4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E10D681-D36E-45E3-9DA5-C769BEFFAE4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DD000FA-583B-47AF-AAA7-4E002B80ECA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DD000FA-583B-47AF-AAA7-4E002B80ECA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DD000FA-583B-47AF-AAA7-4E002B80ECA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DD000FA-583B-47AF-AAA7-4E002B80ECA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EF3A82B-59E2-4D1F-9A85-B44AA27BF711}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EF3A82B-59E2-4D1F-9A85-B44AA27BF711}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EF3A82B-59E2-4D1F-9A85-B44AA27BF711}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EF3A82B-59E2-4D1F-9A85-B44AA27BF711}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55949F9E-1E63-47E5-88F8-999F9D8ED392}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55949F9E-1E63-47E5-88F8-999F9D8ED392}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55949F9E-1E63-47E5-88F8-999F9D8ED392}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55949F9E-1E63-47E5-88F8-999F9D8ED392}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1002E73-57A6-44BB-92DE-A8E42380516A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1002E73-57A6-44BB-92DE-A8E42380516A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1002E73-57A6-44BB-92DE-A8E42380516A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1002E73-57A6-44BB-92DE-A8E42380516A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

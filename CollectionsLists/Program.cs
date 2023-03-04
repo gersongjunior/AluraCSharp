@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Xml.Serialization;
 
 class Program
 {
@@ -26,6 +27,38 @@ class Program
         Console.WriteLine("A primeira aula é "+ aulas.First());
         Console.WriteLine("A última aula é "+ aulas[aulas.Count -1]);
         Console.WriteLine("A última aula é "+ aulas.Last());
+
+
+        aulas[0] = "Trabalhando com Listas";
+        Imprimir(aulas);
+
+        Console.WriteLine("A primeira aula 'Trabalhando' é: " + aulas.First(aulas => aulas.Contains("Trabalhando")));
+        Console.WriteLine("A última aula 'Trabalhando' é: " + aulas.Last(aulas => aulas.Contains("Trabalhando")));
+        Console.WriteLine("A primeira aula 'Conclusão' é: " + aulas.FirstOrDefault(aula => aulas.Contains("Conclusão")));
+
+        aulas.Reverse();
+        Imprimir(aulas);
+
+        aulas.Reverse();
+        Imprimir(aulas);
+
+        aulas.RemoveAt(aulas.Count - 1);
+        Imprimir(aulas);
+
+        aulas.Add("Conclusão");
+        Imprimir(aulas);
+
+        aulas.Sort();
+        Imprimir(aulas);
+
+        List<string> copia = aulas.GetRange(aulas.Count - 2, 2);
+        Imprimir(copia);
+
+        List<string> clone = new List<string>(aulas);
+        Imprimir(clone);
+
+        clone.RemoveRange(clone.Count - 2, 2);
+        Imprimir(clone);
 
 
     }
